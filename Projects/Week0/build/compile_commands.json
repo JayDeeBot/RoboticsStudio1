@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/student/RoboticsStudio1/Projects/Week0/build",
+  "command": "/usr/bin/c++    -std=c++11 -g -o CMakeFiles/ex.dir/main.cpp.o -c /home/student/RoboticsStudio1/Projects/Week0/main.cpp",
+  "file": "/home/student/RoboticsStudio1/Projects/Week0/main.cpp"
+}
+]

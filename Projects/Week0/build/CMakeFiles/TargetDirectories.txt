@@ -1,0 +1,3 @@
+/home/student/RoboticsStudio1/Projects/Week0/build/CMakeFiles/ex.dir
+/home/student/RoboticsStudio1/Projects/Week0/build/CMakeFiles/edit_cache.dir
+/home/student/RoboticsStudio1/Projects/Week0/build/CMakeFiles/rebuild_cache.dir
