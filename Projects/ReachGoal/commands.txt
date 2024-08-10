@@ -1,0 +1,44 @@
+// Launch Turtlebot Simulation
+
+export TURTLEBOT3_MODEL=waffle_pi 
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+// Launch rqt
+
+ros2 run rqt_image_view rqt_image_view
+
+// Launch rviz
+
+rviz2
+
+ros2 topic list
+
+ros2 service list
+
+// Compile and run
+
+cd ~/ros2_ws
+colcon build --packages-select turtlebot3_goal_sender
+
+source install/setup.bash
+
+# Run the goal publisher node
+ros2 run turtlebot3_goal_sender goal_publisher
+
+# Run the goal executor node
+ros2 run turtlebot3_goal_sender goal_executor
+
+// Services
+
+# Set the robot to IDLE state
+ros2 service call /toggle_idle std_srvs/srv/SetBool "{data: false}"
+
+# Set the robot to RUNNING state
+ros2 service call /toggle_idle std_srvs/srv/SetBool "{data: true}"
+
+
+// Create Symbolic Link
+
+cd ~/ros2_ws/src
+ln -s ~/RoboticsStudio1/Projects/ReachGoal .
+

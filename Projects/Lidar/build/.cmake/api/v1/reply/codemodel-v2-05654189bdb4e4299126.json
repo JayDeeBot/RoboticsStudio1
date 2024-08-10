@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5a8ecef27bde59ca2202.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot3_lidar_processing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_node-Debug-d6613335c592840dcd2f.json",
+					"name" : "point_cloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "three_d_model_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-three_d_model_node-Debug-cd48704f8de5f0bba4db.json",
+					"name" : "three_d_model_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_lidar_processing_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_lidar_processing_uninstall-Debug-b7718c16de5d3c3e7b9a.json",
+					"name" : "turtlebot3_lidar_processing_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-b666be60c2a0dcc93253.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/RoboticsStudio1/Projects/Lidar/build",
+		"source" : "/home/student/RoboticsStudio1/Projects/Lidar"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

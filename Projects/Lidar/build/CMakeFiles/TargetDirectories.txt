@@ -1,0 +1,11 @@
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/uninstall.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/turtlebot3_lidar_processing_uninstall.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/point_cloud_node.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/three_d_model_node.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/test.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/edit_cache.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/rebuild_cache.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/list_install_components.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/install.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/install/local.dir
+/home/student/RoboticsStudio1/Projects/Lidar/build/CMakeFiles/install/strip.dir
