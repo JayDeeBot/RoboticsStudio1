@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/localization/lib/localization/scan_matcher
+/home/student/ros2_ws/src/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+/home/student/ros2_ws/src/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+/home/student/ros2_ws/src/install/localization/share/localization/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/localization/share/localization/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/localization/share/localization/environment/path.sh
+/home/student/ros2_ws/src/install/localization/share/localization/environment/path.dsv
+/home/student/ros2_ws/src/install/localization/share/localization/local_setup.bash
+/home/student/ros2_ws/src/install/localization/share/localization/local_setup.sh
+/home/student/ros2_ws/src/install/localization/share/localization/local_setup.zsh
+/home/student/ros2_ws/src/install/localization/share/localization/local_setup.dsv
+/home/student/ros2_ws/src/install/localization/share/localization/package.dsv
+/home/student/ros2_ws/src/install/localization/share/ament_index/resource_index/packages/localization
+/home/student/ros2_ws/src/install/localization/share/localization/cmake/localizationConfig.cmake
+/home/student/ros2_ws/src/install/localization/share/localization/cmake/localizationConfig-version.cmake
+/home/student/ros2_ws/src/install/localization/share/localization/package.xml

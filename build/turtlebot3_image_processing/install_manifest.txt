@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/lib/turtlebot3_image_processing/image_processor
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/ament_index/resource_index/package_run_dependencies/turtlebot3_image_processing
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/ament_index/resource_index/parent_prefix_path/turtlebot3_image_processing
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/environment/path.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/environment/path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/local_setup.bash
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/local_setup.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/local_setup.zsh
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/local_setup.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/package.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/ament_index/resource_index/packages/turtlebot3_image_processing
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/cmake/turtlebot3_image_processingConfig.cmake
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/cmake/turtlebot3_image_processingConfig-version.cmake
+/home/student/ros2_ws/src/install/turtlebot3_image_processing/share/turtlebot3_image_processing/package.xml

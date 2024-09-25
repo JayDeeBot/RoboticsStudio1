@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot3_navigation</name>
+  <version>0.0.1</version>
+  <description>A package to manage TurtleBot3 navigation and goal publishing.</description>
+
+  <maintainer email="jarred.g.deluca@student.uts.edu.au">Jarred Deluca</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav2_msgs</build_depend>  <!-- Add nav2_msgs for the NavigateToPose action -->
+  <build_depend>rclcpp_action</build_depend>  <!-- Add rclcpp_action for action client -->
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>  <!-- Ensure nav2_msgs is also in exec dependencies -->
+  <exec_depend>rclcpp_action</exec_depend>  <!-- Ensure rclcpp_action is also in exec dependencies -->
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <architecture_independent/>
+  </export>
+</package>

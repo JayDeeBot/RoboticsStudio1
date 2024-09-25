@@ -1,0 +1,8 @@
+cd ~/ros2_ws
+colcon build --packages-select turtlebot3_image_processing
+
+source install/setup.bash
+
+source ~/.bashrc
+
+ros2 run turtlebot3_image_processing image_processor

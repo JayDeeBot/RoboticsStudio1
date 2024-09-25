@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/turtlebot3_perception/lib/turtlebot3_perception/laser_scan_processor
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/ament_index/resource_index/package_run_dependencies/turtlebot3_perception
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/ament_index/resource_index/parent_prefix_path/turtlebot3_perception
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/environment/path.sh
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/environment/path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/local_setup.bash
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/local_setup.sh
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/local_setup.zsh
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/local_setup.dsv
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/package.dsv
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/ament_index/resource_index/packages/turtlebot3_perception
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/cmake/turtlebot3_perceptionConfig.cmake
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/cmake/turtlebot3_perceptionConfig-version.cmake
+/home/student/ros2_ws/src/install/turtlebot3_perception/share/turtlebot3_perception/package.xml

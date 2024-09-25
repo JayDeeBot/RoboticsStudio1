@@ -1,0 +1,17 @@
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/lib/turtlebot3_image_subscriber/image_subscriber_node
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/lib/turtlebot3_image_subscriber/teleop_node
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/ament_index/resource_index/package_run_dependencies/turtlebot3_image_subscriber
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/ament_index/resource_index/parent_prefix_path/turtlebot3_image_subscriber
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/environment/path.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/environment/path.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/local_setup.bash
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/local_setup.sh
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/local_setup.zsh
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/local_setup.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/package.dsv
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/ament_index/resource_index/packages/turtlebot3_image_subscriber
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/cmake/turtlebot3_image_subscriberConfig.cmake
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/cmake/turtlebot3_image_subscriberConfig-version.cmake
+/home/student/ros2_ws/src/install/turtlebot3_image_subscriber/share/turtlebot3_image_subscriber/package.xml

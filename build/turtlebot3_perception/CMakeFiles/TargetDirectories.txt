@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/turtlebot3_perception_uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/laser_scan_processor.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/turtlebot3_perception/CMakeFiles/install/strip.dir

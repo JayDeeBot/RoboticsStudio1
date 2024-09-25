@@ -1,0 +1,11 @@
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/turtlebot3_goal_sender_uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/goal_publisher.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/goal_executor.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/turtlebot3_goal_sender/CMakeFiles/install/strip.dir

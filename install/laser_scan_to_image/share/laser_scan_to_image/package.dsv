@@ -1,0 +1,12 @@
+source;share/laser_scan_to_image/hook/cmake_prefix_path.ps1
+source;share/laser_scan_to_image/hook/cmake_prefix_path.dsv
+source;share/laser_scan_to_image/hook/cmake_prefix_path.sh
+source;share/laser_scan_to_image/hook/ros_package_path.ps1
+source;share/laser_scan_to_image/hook/ros_package_path.dsv
+source;share/laser_scan_to_image/hook/ros_package_path.sh
+source;share/laser_scan_to_image/hook/pkg_config_path.ps1
+source;share/laser_scan_to_image/hook/pkg_config_path.dsv
+source;share/laser_scan_to_image/hook/pkg_config_path.sh
+source;share/laser_scan_to_image/hook/pkg_config_path_multiarch.ps1
+source;share/laser_scan_to_image/hook/pkg_config_path_multiarch.dsv
+source;share/laser_scan_to_image/hook/pkg_config_path_multiarch.sh

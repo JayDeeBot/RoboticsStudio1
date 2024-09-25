@@ -1,0 +1,2 @@
+source;share/s2_localizer/environment/ament_prefix_path.sh
+source;share/s2_localizer/environment/path.sh

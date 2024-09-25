@@ -1,0 +1,101 @@
+# SLO 2.2 Robot navigating in the Gazebo environment while displaying sensor data
+# Demonstrate the Turtlebot and laser scan in your project environment while the robot is remote # controlled
+
+# Launch World
+export TURTLEBOT3_MODEL=waffle_pi 
+ros2 launch turtlebot3_gazebo turtlebot3_GroupWarehouse.launch.py
+
+# RVIZ
+rviz2
+
+# Display Sensor Data
+ros2 topic echo /scan
+rqt --standalone rqt_image_view
+rqt --standalone rqt_plot
+
+# Teleop Keys
+ros2 run turtlebot3_teleop teleop_keyboard
+
+# Remote Control Robot
+ros2 run move_turtlebot move_robot_node
+
+# SLO 3.2 Demonstrating the mapping task in Gazebo environment
+# Demonstrating the robotic mapping in the simulation environment
+
+# Launch nav2 package
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
+
+# Run the SLAM Toolbox
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+
+# Launch RVIZ for visualisation
+ros2 run rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+# Save Map
+ros2 run nav2_map_server map_saver_cli -f my_map
+ros2 run nav2_map_server map_saver_cli -f /home/student/ros2_ws/src/Sprint2/map_sprint2
+
+# Open Map
+open /home/student/ros2_ws/src/Sprint2/map_sprint2.yaml
+open /home/student/ros2_ws/src/Sprint2/map_sprint2.pgm
+
+# SLO 3.3 Demonstrate displaying sensors
+# In the Lab: Display odometry, IMU, laser during the mapping task.
+
+# Odometry - Topic = /odom
+# IMU - Topic = /imu
+# Laser - Topic = /scan
+# Display Odometry in RVIZ
+rqt --standalone rqt_plot
+rqt --standalone rqt_image_view
+rviz2
+
+# Echo
+ros2 topic echo /imu
+ros2 topic echo /odom
+ros2 topic echo /scan
+
+# SLO 3.5 Demonstrating the localisation task in the Gazebo environment
+# Use ROS 2 nav2_amcl package to localise the robot
+
+# Launch AMCL Localiser - with map attached
+#Launch Nav2 for Navigation with Obstacle Avoidance - with map attached
+export TURTLEBOT3_MODEL=waffle_pi 
+ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=/home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+
+#AMCL Pose Topic = /amcl_pose
+
+# Display Pose from AMCL
+ros2 topic echo /amcl_pose
+rqt --standalone rqt_plot
+
+# SLO 3.6 Scan matching localiser
+# In the Lab: Demonstrate the robot localisation using the scan-matching localiser.
+
+ros2 run localization scan_matcher /home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+
+# Yaw Topic
+/sml_yaw/data
+
+ros2 topic echo /sml_yaw
+
+ros2 run sml_graph yaw_listener
+
+# Show Graph of Yaw Values
+
+open /home/student/ros2_ws/yaw_plot.png - Yaw only
+
+open /home/student/yaw_plot-Sprint2.png - Yaw, Odom (Ground Truth) and AMCL_pose
+
+
+ros2 run sprint_2_localiser scan_matching_localiser /home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+ros2 run localization scan_matcher /home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+ros2 run scan_matching_localizer scan_to_image_node /home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+ros2 run hail_localiser hail_localiser_node /home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.yaml
+
+
+
+
+
+
+

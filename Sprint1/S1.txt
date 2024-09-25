@@ -1,0 +1,27 @@
+// Compile Package - World Launch File
+cd ~/ros2_ws
+colcon bulid --packages-select turtlebot3_gazebo
+
+// Launch World
+export TURTLEBOT3_MODEL=waffle_pi 
+ros2 launch turtlebot3_gazebo S1World.launch.py
+
+// Compile Package - Laser Scan Filter
+colcon build --packages-select laser_scan_filter
+
+// Run Node 1 to Subscribe to Laser Scan and Publish altered scan 
+// Value at the end represents n for nth scan
+ros2 run laser_scan_filter laser_scan_filter_node 5
+
+// Run Node 2 for visualisations
+ros2 run laser_scan_filter laser_scan_visualizer_node
+
+// Run rviz and rqt for visualisations
+rviz2
+rqt_image_view
+
+// File Locations 
+~/ros2_ws/turtlebot3_simulations/turtlebot3_gazebo/launch // Launch file
+~/ros2_ws/src/Sprint1/World/gazebo_models_worlds_collection/worlds // World files
+
+

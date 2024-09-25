@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6f0e8cc03dc3dc22c1ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "laser_scan_filter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_filter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_filter_node-Debug-e3613b8748aee41eab4a.json",
+					"name" : "laser_scan_filter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_filter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_filter_uninstall-Debug-7efc10c3b153a7bc1b98.json",
+					"name" : "laser_scan_filter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_scan_visualizer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_scan_visualizer_node-Debug-4a082fc0cd4b9489bfdd.json",
+					"name" : "laser_scan_visualizer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-302c939e08772d4370cd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/ros2_ws/src/Sprint1/build",
+		"source" : "/home/student/ros2_ws/src/Sprint1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

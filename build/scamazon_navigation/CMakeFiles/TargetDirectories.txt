@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/scamazon_navigation_uninstall.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/reach_goals.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/scamazon_navigation/CMakeFiles/install/strip.dir

@@ -1,0 +1,8 @@
+source;share/s2_localizer/hook/cmake_prefix_path.ps1
+source;share/s2_localizer/hook/cmake_prefix_path.dsv
+source;share/s2_localizer/hook/cmake_prefix_path.sh
+source;share/s2_localizer/local_setup.bash
+source;share/s2_localizer/local_setup.dsv
+source;share/s2_localizer/local_setup.ps1
+source;share/s2_localizer/local_setup.sh
+source;share/s2_localizer/local_setup.zsh

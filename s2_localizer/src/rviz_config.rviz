@@ -1,0 +1,29 @@
+Visualization Manager:
+  Class: ""
+  Name: "Visualization Manager"
+  Enabled: true
+  Global Options:
+    Fixed Frame: "odom"
+    Frame Rate: 30
+    Background Color: [48, 48, 48]
+  Displays:
+    - Class: "rviz_default_plugins/Map"
+      Name: "Map"
+      Topic: "/map"
+      Enabled: true
+    - Class: "rviz_default_plugins/Odometry"
+      Name: "Odometry"
+      Topic: "/odom"
+      Enabled: true
+    - Class: "rviz_default_plugins/IMU"
+      Name: "IMU"
+      Topic: "/imu"
+      Enabled: true
+    - Class: "rviz_default_plugins/LaserScan"
+      Name: "LaserScan"
+      Topic: "/scan"
+      Enabled: true
+    - Class: "rviz_default_plugins/Pose"
+      Name: "AMCL Pose"
+      Topic: "/amcl_pose"
+      Enabled: true

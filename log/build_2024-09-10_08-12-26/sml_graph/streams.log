@@ -1,0 +1,31 @@
+[1.203s] Invoking command in '/home/student/ros2_ws/src/sml_graph': PYTHONPATH=/home/student/ros2_ws/src/build/sml_graph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/sml_graph build --build-base /home/student/ros2_ws/src/build/sml_graph/build install --record /home/student/ros2_ws/src/build/sml_graph/install.log --single-version-externally-managed
+[3.397s] running egg_info
+[3.397s] creating ../build/sml_graph/sml_graph.egg-info
+[3.399s] writing ../build/sml_graph/sml_graph.egg-info/PKG-INFO
+[3.399s] writing dependency_links to ../build/sml_graph/sml_graph.egg-info/dependency_links.txt
+[3.400s] writing entry points to ../build/sml_graph/sml_graph.egg-info/entry_points.txt
+[3.400s] writing requirements to ../build/sml_graph/sml_graph.egg-info/requires.txt
+[3.400s] writing top-level names to ../build/sml_graph/sml_graph.egg-info/top_level.txt
+[3.401s] writing manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+[3.401s] reading manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+[3.401s] writing manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+[3.401s] running build
+[3.401s] running build_py
+[3.401s] creating /home/student/ros2_ws/src/build/sml_graph/build
+[3.402s] creating /home/student/ros2_ws/src/build/sml_graph/build/lib
+[3.402s] creating /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+[3.402s] copying sml_graph/yaw_listener.py -> /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+[3.402s] copying sml_graph/__init__.py -> /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+[3.402s] running install
+[3.403s] running install_lib
+[3.403s] creating /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+[3.403s] copying /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph/yaw_listener.py -> /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+[3.403s] copying /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph/__init__.py -> /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+[3.403s] byte-compiling /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph/yaw_listener.py to yaw_listener.cpython-310.pyc
+[3.403s] byte-compiling /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph/__init__.py to __init__.cpython-310.pyc
+[3.404s] running install_egg_info
+[3.404s] Copying ../build/sml_graph/sml_graph.egg-info to /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph-0.0.2-py3.10.egg-info
+[3.404s] running install_scripts
+[3.404s] Installing yaw_listener script to /home/student/ros2_ws/src/install/sml_graph/lib/sml_graph
+[3.404s] writing list of installed files to '/home/student/ros2_ws/src/build/sml_graph/install.log'
+[3.415s] Invoked command in '/home/student/ros2_ws/src/sml_graph' returned '0': PYTHONPATH=/home/student/ros2_ws/src/build/sml_graph/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/sml_graph build --build-base /home/student/ros2_ws/src/build/sml_graph/build install --record /home/student/ros2_ws/src/build/sml_graph/install.log --single-version-externally-managed

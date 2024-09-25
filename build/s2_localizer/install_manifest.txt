@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/launch/localization.launch.py
+/home/student/ros2_ws/src/install/s2_localizer/share/ament_index/resource_index/package_run_dependencies/s2_localizer
+/home/student/ros2_ws/src/install/s2_localizer/share/ament_index/resource_index/parent_prefix_path/s2_localizer
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/environment/path.sh
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/environment/path.dsv
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/local_setup.bash
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/local_setup.sh
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/local_setup.zsh
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/local_setup.dsv
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/package.dsv
+/home/student/ros2_ws/src/install/s2_localizer/share/ament_index/resource_index/packages/s2_localizer
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/cmake/s2_localizerConfig.cmake
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/cmake/s2_localizerConfig-version.cmake
+/home/student/ros2_ws/src/install/s2_localizer/share/s2_localizer/package.xml

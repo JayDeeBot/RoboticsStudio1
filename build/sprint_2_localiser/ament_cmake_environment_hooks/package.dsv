@@ -1,0 +1,4 @@
+source;share/sprint_2_localiser/local_setup.bash
+source;share/sprint_2_localiser/local_setup.dsv
+source;share/sprint_2_localiser/local_setup.sh
+source;share/sprint_2_localiser/local_setup.zsh

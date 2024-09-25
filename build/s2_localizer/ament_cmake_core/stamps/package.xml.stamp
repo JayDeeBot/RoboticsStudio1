@@ -1,0 +1,29 @@
+<package format="3">
+  <name>s2_localizer</name>
+  <version>0.0.0</version>
+  <description>ROS2 package for TurtleBot3 localization using nav2_amcl.</description>
+  <maintainer email="your_email@domain.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav2_amcl</build_depend>
+  <build_depend>nav2_map_server</build_depend>
+  <build_depend>nav2_lifecycle_manager</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_amcl</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

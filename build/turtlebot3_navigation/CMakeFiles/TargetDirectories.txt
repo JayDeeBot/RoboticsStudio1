@@ -1,0 +1,11 @@
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/turtlebot3_navigation_uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/navigation_launcher.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/goal_publisher.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/turtlebot3_navigation/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/move_turtlebot/lib/move_turtlebot/move_robot_node
+/home/student/ros2_ws/src/install/move_turtlebot/share/ament_index/resource_index/package_run_dependencies/move_turtlebot
+/home/student/ros2_ws/src/install/move_turtlebot/share/ament_index/resource_index/parent_prefix_path/move_turtlebot
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/environment/path.sh
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/environment/path.dsv
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/local_setup.bash
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/local_setup.sh
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/local_setup.zsh
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/local_setup.dsv
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/package.dsv
+/home/student/ros2_ws/src/install/move_turtlebot/share/ament_index/resource_index/packages/move_turtlebot
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/cmake/move_turtlebotConfig.cmake
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/cmake/move_turtlebotConfig-version.cmake
+/home/student/ros2_ws/src/install/move_turtlebot/share/move_turtlebot/package.xml

@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/install/sprint_2_localiser/lib/sprint_2_localiser/scan_matching_localiser
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/ament_index/resource_index/package_run_dependencies/sprint_2_localiser
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/ament_index/resource_index/parent_prefix_path/sprint_2_localiser
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/environment/path.sh
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/environment/path.dsv
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/local_setup.bash
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/local_setup.sh
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/local_setup.zsh
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/local_setup.dsv
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/package.dsv
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/ament_index/resource_index/packages/sprint_2_localiser
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/cmake/sprint_2_localiserConfig.cmake
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/cmake/sprint_2_localiserConfig-version.cmake
+/home/student/ros2_ws/src/install/sprint_2_localiser/share/sprint_2_localiser/package.xml

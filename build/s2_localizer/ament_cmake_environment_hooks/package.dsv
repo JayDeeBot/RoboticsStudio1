@@ -1,0 +1,4 @@
+source;share/s2_localizer/local_setup.bash
+source;share/s2_localizer/local_setup.dsv
+source;share/s2_localizer/local_setup.sh
+source;share/s2_localizer/local_setup.zsh

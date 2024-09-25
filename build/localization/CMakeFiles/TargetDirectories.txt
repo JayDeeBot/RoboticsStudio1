@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/build/localization/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/localization_uninstall.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/scan_matcher.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/localization/CMakeFiles/install/strip.dir

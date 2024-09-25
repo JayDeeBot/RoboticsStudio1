@@ -1,0 +1,29 @@
+<package format="3">
+  <name>laser_scan_to_image</name>
+  <version>0.0.0</version>
+  <description>ROS2 package to convert laser scans to images and estimate relative rotation</description>
+
+  <maintainer email="jarred.g.deluca@student.uts.edu.au">Jarred Deluca</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>opencv4</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>geometry_msgs</build_depend>  <!-- Added for cmd_vel publishing -->
+
+  <!-- Execution dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>opencv4</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>  <!-- Added for cmd_vel publishing -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+</package>

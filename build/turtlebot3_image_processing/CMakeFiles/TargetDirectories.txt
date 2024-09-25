@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/turtlebot3_image_processing_uninstall.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/image_processor.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/turtlebot3_image_processing/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+Invoking command in '/home/student/ros2_ws/src/build/laser_scan_to_image': /usr/bin/cmake /home/student/ros2_ws/src/laser_scan_to_image -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/laser_scan_to_image
+Invoked command in '/home/student/ros2_ws/src/build/laser_scan_to_image' returned '0': /usr/bin/cmake /home/student/ros2_ws/src/laser_scan_to_image -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/install/laser_scan_to_image
+Invoking command in '/home/student/ros2_ws/src/build/laser_scan_to_image': /usr/bin/cmake --build /home/student/ros2_ws/src/build/laser_scan_to_image -- -j8 -l8
+Invoked command in '/home/student/ros2_ws/src/build/laser_scan_to_image' returned '0': /usr/bin/cmake --build /home/student/ros2_ws/src/build/laser_scan_to_image -- -j8 -l8
+Invoking command in '/home/student/ros2_ws/src/build/laser_scan_to_image': /usr/bin/cmake --install /home/student/ros2_ws/src/build/laser_scan_to_image
+Invoked command in '/home/student/ros2_ws/src/build/laser_scan_to_image' returned '0': /usr/bin/cmake --install /home/student/ros2_ws/src/build/laser_scan_to_image

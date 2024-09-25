@@ -1,0 +1,29 @@
+running egg_info
+creating ../build/sml_graph/sml_graph.egg-info
+writing ../build/sml_graph/sml_graph.egg-info/PKG-INFO
+writing dependency_links to ../build/sml_graph/sml_graph.egg-info/dependency_links.txt
+writing entry points to ../build/sml_graph/sml_graph.egg-info/entry_points.txt
+writing requirements to ../build/sml_graph/sml_graph.egg-info/requires.txt
+writing top-level names to ../build/sml_graph/sml_graph.egg-info/top_level.txt
+writing manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+reading manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+writing manifest file '../build/sml_graph/sml_graph.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student/ros2_ws/src/build/sml_graph/build
+creating /home/student/ros2_ws/src/build/sml_graph/build/lib
+creating /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+copying sml_graph/yaw_listener.py -> /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+copying sml_graph/__init__.py -> /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph
+running install
+running install_lib
+creating /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+copying /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph/yaw_listener.py -> /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+copying /home/student/ros2_ws/src/build/sml_graph/build/lib/sml_graph/__init__.py -> /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph
+byte-compiling /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph/yaw_listener.py to yaw_listener.cpython-310.pyc
+byte-compiling /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../build/sml_graph/sml_graph.egg-info to /home/student/ros2_ws/src/install/sml_graph/lib/python3.10/site-packages/sml_graph-0.0.2-py3.10.egg-info
+running install_scripts
+Installing yaw_listener script to /home/student/ros2_ws/src/install/sml_graph/lib/sml_graph
+writing list of installed files to '/home/student/ros2_ws/src/build/sml_graph/install.log'

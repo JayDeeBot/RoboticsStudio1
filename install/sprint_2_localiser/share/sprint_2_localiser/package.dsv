@@ -1,0 +1,8 @@
+source;share/sprint_2_localiser/hook/cmake_prefix_path.ps1
+source;share/sprint_2_localiser/hook/cmake_prefix_path.dsv
+source;share/sprint_2_localiser/hook/cmake_prefix_path.sh
+source;share/sprint_2_localiser/local_setup.bash
+source;share/sprint_2_localiser/local_setup.dsv
+source;share/sprint_2_localiser/local_setup.ps1
+source;share/sprint_2_localiser/local_setup.sh
+source;share/sprint_2_localiser/local_setup.zsh

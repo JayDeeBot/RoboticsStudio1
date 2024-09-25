@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/scan_matching_localizer_tejas_uninstall.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/scan_to_image_node.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/test.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/install.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/build/scan_matching_localizer_tejas/CMakeFiles/install/strip.dir

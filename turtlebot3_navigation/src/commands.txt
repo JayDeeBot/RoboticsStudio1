@@ -1,0 +1,7 @@
+colcon build --packages-select turtlebot3_navigation
+
+source ~/.bashrc
+
+ros2 run turtlebot3_navigation navigation_launcher
+
+ros2 run turtlebot3_navigation goal_publisher
