@@ -210,6 +210,19 @@ autonomous_mapping/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_mapping.dir/build.make CMakeFiles/autonomous_mapping.dir/build
 .PHONY : autonomous_mapping/fast
 
+#=============================================================================
+# Target rules for targets named localizer_and_navigation
+
+# Build rule for target.
+localizer_and_navigation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 localizer_and_navigation
+.PHONY : localizer_and_navigation
+
+# fast build rule for target.
+localizer_and_navigation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/build
+.PHONY : localizer_and_navigation/fast
+
 src/autonomous_mapping.o: src/autonomous_mapping.cpp.o
 .PHONY : src/autonomous_mapping.o
 
@@ -258,6 +271,54 @@ src/autonomous_mapping_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_mapping.dir/build.make CMakeFiles/autonomous_mapping.dir/src/autonomous_mapping_main.cpp.s
 .PHONY : src/autonomous_mapping_main.cpp.s
 
+src/localizer_and_navigation.o: src/localizer_and_navigation.cpp.o
+.PHONY : src/localizer_and_navigation.o
+
+# target to build an object file
+src/localizer_and_navigation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.o
+.PHONY : src/localizer_and_navigation.cpp.o
+
+src/localizer_and_navigation.i: src/localizer_and_navigation.cpp.i
+.PHONY : src/localizer_and_navigation.i
+
+# target to preprocess a source file
+src/localizer_and_navigation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.i
+.PHONY : src/localizer_and_navigation.cpp.i
+
+src/localizer_and_navigation.s: src/localizer_and_navigation.cpp.s
+.PHONY : src/localizer_and_navigation.s
+
+# target to generate assembly for a file
+src/localizer_and_navigation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.s
+.PHONY : src/localizer_and_navigation.cpp.s
+
+src/localizer_and_navigation_main.o: src/localizer_and_navigation_main.cpp.o
+.PHONY : src/localizer_and_navigation_main.o
+
+# target to build an object file
+src/localizer_and_navigation_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation_main.cpp.o
+.PHONY : src/localizer_and_navigation_main.cpp.o
+
+src/localizer_and_navigation_main.i: src/localizer_and_navigation_main.cpp.i
+.PHONY : src/localizer_and_navigation_main.i
+
+# target to preprocess a source file
+src/localizer_and_navigation_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation_main.cpp.i
+.PHONY : src/localizer_and_navigation_main.cpp.i
+
+src/localizer_and_navigation_main.s: src/localizer_and_navigation_main.cpp.s
+.PHONY : src/localizer_and_navigation_main.s
+
+# target to generate assembly for a file
+src/localizer_and_navigation_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation_main.cpp.s
+.PHONY : src/localizer_and_navigation_main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,12 +335,19 @@ help:
 	@echo "... autonomous_robot_uninstall"
 	@echo "... uninstall"
 	@echo "... autonomous_mapping"
+	@echo "... localizer_and_navigation"
 	@echo "... src/autonomous_mapping.o"
 	@echo "... src/autonomous_mapping.i"
 	@echo "... src/autonomous_mapping.s"
 	@echo "... src/autonomous_mapping_main.o"
 	@echo "... src/autonomous_mapping_main.i"
 	@echo "... src/autonomous_mapping_main.s"
+	@echo "... src/localizer_and_navigation.o"
+	@echo "... src/localizer_and_navigation.i"
+	@echo "... src/localizer_and_navigation.s"
+	@echo "... src/localizer_and_navigation_main.o"
+	@echo "... src/localizer_and_navigation_main.i"
+	@echo "... src/localizer_and_navigation_main.s"
 .PHONY : help
 
 

@@ -723,6 +723,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
@@ -868,4 +872,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/autonomous_robot_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/autonomous_mapping.dir/DependInfo.cmake"
+  "CMakeFiles/localizer_and_navigation.dir/DependInfo.cmake"
   )

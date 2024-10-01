@@ -12,6 +12,7 @@
         "ctime": "cpp",
         "cwchar": "cpp",
         "cwctype": "cpp",
+        "any": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "strstream": "cpp",
@@ -19,6 +20,7 @@
         "*.tcc": "cpp",
         "bitset": "cpp",
         "chrono": "cpp",
+        "cinttypes": "cpp",
         "codecvt": "cpp",
         "compare": "cpp",
         "complex": "cpp",
@@ -69,7 +71,6 @@
         "streambuf": "cpp",
         "thread": "cpp",
         "cfenv": "cpp",
-        "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"

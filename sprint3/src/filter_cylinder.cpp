@@ -36,7 +36,7 @@ public:
         cylinder_diameter_ = 0.30;
 
         // Load the map image
-        map_image_ = cv::imread("/home/student/ros2_ws/src/tejasWarehouse/updatedWarehouse_map2.pgm", cv::IMREAD_GRAYSCALE);
+        map_image_ = cv::imread("/home/student/ros2_ws/src/autonomous_robot/map/real_warehouse.pgm", cv::IMREAD_GRAYSCALE);
 
         if (map_image_.empty()) {
             RCLCPP_ERROR(this->get_logger(), "Failed to load the map image. Check if the file exists and is accessible.");
@@ -47,8 +47,8 @@ public:
 
         // Assume these map parameters (Adjust accordingly based on your map setup)
         map_resolution_ = 0.05;  // Map resolution in meters/pixel (adjust as necessary)
-        map_origin_x_ = -3.56;   // X origin of the map in meters (adjust as necessary)
-        map_origin_y_ = -3.54;   // Y origin of the map in meters (adjust as necessary)
+        map_origin_x_ = 9.5;   // X origin of the map in meters (adjust as necessary)
+        map_origin_y_ = 14.5;   // Y origin of the map in meters (adjust as necessary)
     }
 
 private:
@@ -61,6 +61,7 @@ private:
     bool place_markers_;
 
     cv::Mat map_image_;
+    cv::Mat edited_map_image_;
     double map_resolution_;    // Map resolution in meters per pixel
     double map_origin_x_;      // X origin of the map in meters
     double map_origin_y_;      // Y origin of the map in meters
@@ -117,7 +118,7 @@ private:
         std::vector<Point2D> points;
         std::vector<int> cylinder_indices;
 
-        RCLCPP_INFO(this->get_logger(), "Processing scan data...");
+        // RCLCPP_INFO(this->get_logger(), "Processing scan data...");
 
         // Convert ranges to 2D points in the robot's coordinate frame
         for (size_t i = 0; i < scan_msg->ranges.size(); ++i)
@@ -134,7 +135,7 @@ private:
             points.push_back(rangeToPoint(range, angle, i));
         }
 
-        RCLCPP_INFO(this->get_logger(), "Converted %lu points.", points.size());
+        // RCLCPP_INFO(this->get_logger(), "Converted %lu points.", points.size());
 
         // Cluster points based on proximity
         std::vector<std::vector<Point2D>> clusters = clusterPoints(points);
@@ -162,7 +163,7 @@ private:
             }
         }
 
-        RCLCPP_INFO(this->get_logger(), "Processing completed.");
+        // RCLCPP_INFO(this->get_logger(), "Processing completed.");
     }
 
     // Function to calculate the center of a cluster in the world frame
@@ -191,16 +192,19 @@ private:
     // Function to draw a cylinder on the map
     void drawCylinderOnMap(const Point2D &cylinder_center)
     {
+        // Reload the map from the original image to reset any previous drawings
+        edited_map_image_ = map_image_.clone();  // Clone the original map image
+
         // Debugging: Print map parameters and cylinder center
-        RCLCPP_INFO(this->get_logger(), "Map origin: (%.2f, %.2f)", map_origin_x_, map_origin_y_);
-        RCLCPP_INFO(this->get_logger(), "Map resolution: %.2f meters/pixel", map_resolution_);
-        RCLCPP_INFO(this->get_logger(), "Cylinder center: (%.2f, %.2f)", cylinder_center.x, cylinder_center.y);
+        // RCLCPP_INFO(this->get_logger(), "Map origin: (%.2f, %.2f)", map_origin_x_, map_origin_y_);
+        // RCLCPP_INFO(this->get_logger(), "Map resolution: %.2f meters/pixel", map_resolution_);
+        // RCLCPP_INFO(this->get_logger(), "Cylinder center: (%.2f, %.2f)", cylinder_center.x, cylinder_center.y);
 
         // Convert global coordinates to map pixel coordinates
-        int map_x = static_cast<int>((cylinder_center.x - map_origin_x_) / map_resolution_);
+        int map_x = static_cast<int>((map_origin_x_ + cylinder_center.x) / map_resolution_);
 
         // Adjust the map_y calculation by taking the difference relative to the origin
-        int map_y = static_cast<int>((map_origin_y_ - cylinder_center.y) / map_resolution_);
+        int map_y = static_cast<int>((map_origin_y_ + cylinder_center.y) / map_resolution_);
 
         // Validate map coordinates
         if (map_x < 0 || map_x >= map_image_.cols || map_y < 0 || map_y >= map_image_.rows) {
@@ -209,14 +213,14 @@ private:
         }
 
         // Debugging: Print the calculated map coordinates
-        RCLCPP_INFO(this->get_logger(), "Map coordinates: (map_x: %d, map_y: %d)", map_x, map_y);
+        // RCLCPP_INFO(this->get_logger(), "Map coordinates: (map_x: %d, map_y: %d)", map_x, map_y);
 
         // Draw a circle representing the cylinder (15 cm radius, 30 cm diameter)
         int radius = static_cast<int>((cylinder_diameter_ / 2) / map_resolution_);
-        cv::circle(map_image_, cv::Point(map_x, map_y), radius, cv::Scalar(0), -1); // Black circle
+        cv::circle(edited_map_image_, cv::Point(map_x, map_y), radius, cv::Scalar(0), -1); // Black circle
 
         // Show the map with the drawn cylinder
-        cv::imshow("Map with Cylinder", map_image_);
+        cv::imshow("Map with Cylinder", edited_map_image_);
         cv::waitKey(1); // Update display
     }
 

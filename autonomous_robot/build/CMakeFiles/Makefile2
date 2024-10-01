@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/student/ros2_ws/src/autonomous_robot/build
 
 # The main recursive "all" target.
 all: CMakeFiles/autonomous_mapping.dir/all
+all: CMakeFiles/localizer_and_navigation.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/autonomous_robot_uninstall.dir/clean
 clean: CMakeFiles/autonomous_mapping.dir/clean
+clean: CMakeFiles/localizer_and_navigation.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ autonomous_mapping: CMakeFiles/autonomous_mapping.dir/rule
 CMakeFiles/autonomous_mapping.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_mapping.dir/build.make CMakeFiles/autonomous_mapping.dir/clean
 .PHONY : CMakeFiles/autonomous_mapping.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/localizer_and_navigation.dir
+
+# All Build rule for target.
+CMakeFiles/localizer_and_navigation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/ros2_ws/src/autonomous_robot/build/CMakeFiles --progress-num=4,5,6 "Built target localizer_and_navigation"
+.PHONY : CMakeFiles/localizer_and_navigation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/localizer_and_navigation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ros2_ws/src/autonomous_robot/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/localizer_and_navigation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ros2_ws/src/autonomous_robot/build/CMakeFiles 0
+.PHONY : CMakeFiles/localizer_and_navigation.dir/rule
+
+# Convenience name for target.
+localizer_and_navigation: CMakeFiles/localizer_and_navigation.dir/rule
+.PHONY : localizer_and_navigation
+
+# clean rule for target.
+CMakeFiles/localizer_and_navigation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/clean
+.PHONY : CMakeFiles/localizer_and_navigation.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

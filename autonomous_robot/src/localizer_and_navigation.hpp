@@ -11,17 +11,33 @@
 class LocalizerAndNavigation : public rclcpp::Node
 {
 public:
-    LocalizerAndNavigation();
+    LocalizerAndNavigation(float x, float y, float yaw);
 
-    // Method to run the state machine, now public
-    void runStateMachine();
+    enum class State
+    {
+        IDLE,
+        RUNNING,
+        TASKED
+    };
+    
+    // Public methods for each state
+    void runIdleState();
+    void runRunningState();
+    void runTaskedState();
+
+    // Getter for current state
+    State getCurrentState() const { return current_state_; }
 
 private:
-    void publishInitialPose();
+    void publishInitialPose(float x, float y, float yaw);
     void goalCallback(const geometry_msgs::msg::PoseArray::SharedPtr msg);
     void amclCallback(const geometry_msgs::msg::PoseWithCovarianceStamped::SharedPtr msg);
     bool isGoalReached(const geometry_msgs::msg::Pose &pose);
     void publishNextGoal();
+    geometry_msgs::msg::Quaternion createQuaternionFromYaw(float yaw);
+
+    void stateMachine();
+
 
     rclcpp::Publisher<geometry_msgs::msg::PoseWithCovarianceStamped>::SharedPtr initial_pose_pub_;
     rclcpp::Subscription<geometry_msgs::msg::PoseArray>::SharedPtr goal_sub_;
@@ -32,15 +48,10 @@ private:
     int current_goal_index_;
     bool started_;
 
-    enum class State
-    {
-        IDLE,
-        RUNNING,
-        TASKED
-    };
     State current_state_;
 
     geometry_msgs::msg::Pose current_pose_;
+    int total_goals_;
     std::mutex mtx_;
 };
 

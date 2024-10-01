@@ -4,6 +4,11 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_srvs/srv/trigger.hpp"  // Add this include for std_srvs
 #include <string>
+#include <chrono>
+#include <thread>
+#include <filesystem> // For file handling
+#include <opencv2/opencv.hpp> // For displaying the saved map
+#include <fstream>
 
 class AutonomousMapping : public rclcpp::Node
 {
@@ -22,6 +27,7 @@ private:
     void startEnvironment();
     void killExploreLite();
     void runExploreLite();
+    void saveMap();
 
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr restart_explore_service_;
     rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr save_map_service_;
