@@ -198,6 +198,45 @@ autonomous_robot_uninstall/fast:
 .PHONY : autonomous_robot_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named colour_detector
+
+# Build rule for target.
+colour_detector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 colour_detector
+.PHONY : colour_detector
+
+# fast build rule for target.
+colour_detector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colour_detector.dir/build.make CMakeFiles/colour_detector.dir/build
+.PHONY : colour_detector/fast
+
+#=============================================================================
+# Target rules for targets named tsp
+
+# Build rule for target.
+tsp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tsp
+.PHONY : tsp
+
+# fast build rule for target.
+tsp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tsp.dir/build.make CMakeFiles/tsp.dir/build
+.PHONY : tsp/fast
+
+#=============================================================================
+# Target rules for targets named localizer_and_navigation_library
+
+# Build rule for target.
+localizer_and_navigation_library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 localizer_and_navigation_library
+.PHONY : localizer_and_navigation_library
+
+# fast build rule for target.
+localizer_and_navigation_library/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation_library.dir/build.make CMakeFiles/localizer_and_navigation_library.dir/build
+.PHONY : localizer_and_navigation_library/fast
+
+#=============================================================================
 # Target rules for targets named autonomous_mapping
 
 # Build rule for target.
@@ -222,6 +261,84 @@ localizer_and_navigation: cmake_check_build_system
 localizer_and_navigation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/build
 .PHONY : localizer_and_navigation/fast
+
+#=============================================================================
+# Target rules for targets named LOCALIZATION
+
+# Build rule for target.
+LOCALIZATION: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LOCALIZATION
+.PHONY : LOCALIZATION
+
+# fast build rule for target.
+LOCALIZATION/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LOCALIZATION.dir/build.make CMakeFiles/LOCALIZATION.dir/build
+.PHONY : LOCALIZATION/fast
+
+#=============================================================================
+# Target rules for targets named NAVIGATION
+
+# Build rule for target.
+NAVIGATION: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NAVIGATION
+.PHONY : NAVIGATION
+
+# fast build rule for target.
+NAVIGATION/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NAVIGATION.dir/build.make CMakeFiles/NAVIGATION.dir/build
+.PHONY : NAVIGATION/fast
+
+#=============================================================================
+# Target rules for targets named CATALOGUING
+
+# Build rule for target.
+CATALOGUING: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CATALOGUING
+.PHONY : CATALOGUING
+
+# fast build rule for target.
+CATALOGUING/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATALOGUING.dir/build.make CMakeFiles/CATALOGUING.dir/build
+.PHONY : CATALOGUING/fast
+
+#=============================================================================
+# Target rules for targets named TASKALLOCATION
+
+# Build rule for target.
+TASKALLOCATION: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TASKALLOCATION
+.PHONY : TASKALLOCATION
+
+# fast build rule for target.
+TASKALLOCATION/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TASKALLOCATION.dir/build.make CMakeFiles/TASKALLOCATION.dir/build
+.PHONY : TASKALLOCATION/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 src/autonomous_mapping.o: src/autonomous_mapping.cpp.o
 .PHONY : src/autonomous_mapping.o
@@ -271,11 +388,36 @@ src/autonomous_mapping_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_mapping.dir/build.make CMakeFiles/autonomous_mapping.dir/src/autonomous_mapping_main.cpp.s
 .PHONY : src/autonomous_mapping_main.cpp.s
 
+src/colour_detector.o: src/colour_detector.cpp.o
+.PHONY : src/colour_detector.o
+
+# target to build an object file
+src/colour_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colour_detector.dir/build.make CMakeFiles/colour_detector.dir/src/colour_detector.cpp.o
+.PHONY : src/colour_detector.cpp.o
+
+src/colour_detector.i: src/colour_detector.cpp.i
+.PHONY : src/colour_detector.i
+
+# target to preprocess a source file
+src/colour_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colour_detector.dir/build.make CMakeFiles/colour_detector.dir/src/colour_detector.cpp.i
+.PHONY : src/colour_detector.cpp.i
+
+src/colour_detector.s: src/colour_detector.cpp.s
+.PHONY : src/colour_detector.s
+
+# target to generate assembly for a file
+src/colour_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/colour_detector.dir/build.make CMakeFiles/colour_detector.dir/src/colour_detector.cpp.s
+.PHONY : src/colour_detector.cpp.s
+
 src/localizer_and_navigation.o: src/localizer_and_navigation.cpp.o
 .PHONY : src/localizer_and_navigation.o
 
 # target to build an object file
 src/localizer_and_navigation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation_library.dir/build.make CMakeFiles/localizer_and_navigation_library.dir/src/localizer_and_navigation.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.o
 .PHONY : src/localizer_and_navigation.cpp.o
 
@@ -284,6 +426,7 @@ src/localizer_and_navigation.i: src/localizer_and_navigation.cpp.i
 
 # target to preprocess a source file
 src/localizer_and_navigation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation_library.dir/build.make CMakeFiles/localizer_and_navigation_library.dir/src/localizer_and_navigation.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.i
 .PHONY : src/localizer_and_navigation.cpp.i
 
@@ -292,6 +435,7 @@ src/localizer_and_navigation.s: src/localizer_and_navigation.cpp.s
 
 # target to generate assembly for a file
 src/localizer_and_navigation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation_library.dir/build.make CMakeFiles/localizer_and_navigation_library.dir/src/localizer_and_navigation.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation.cpp.s
 .PHONY : src/localizer_and_navigation.cpp.s
 
@@ -319,6 +463,126 @@ src/localizer_and_navigation_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/localizer_and_navigation.dir/build.make CMakeFiles/localizer_and_navigation.dir/src/localizer_and_navigation_main.cpp.s
 .PHONY : src/localizer_and_navigation_main.cpp.s
 
+src/tsp.o: src/tsp.cpp.o
+.PHONY : src/tsp.o
+
+# target to build an object file
+src/tsp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tsp.dir/build.make CMakeFiles/tsp.dir/src/tsp.cpp.o
+.PHONY : src/tsp.cpp.o
+
+src/tsp.i: src/tsp.cpp.i
+.PHONY : src/tsp.i
+
+# target to preprocess a source file
+src/tsp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tsp.dir/build.make CMakeFiles/tsp.dir/src/tsp.cpp.i
+.PHONY : src/tsp.cpp.i
+
+src/tsp.s: src/tsp.cpp.s
+.PHONY : src/tsp.s
+
+# target to generate assembly for a file
+src/tsp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tsp.dir/build.make CMakeFiles/tsp.dir/src/tsp.cpp.s
+.PHONY : src/tsp.cpp.s
+
+test/box_detection_test.o: test/box_detection_test.cpp.o
+.PHONY : test/box_detection_test.o
+
+# target to build an object file
+test/box_detection_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATALOGUING.dir/build.make CMakeFiles/CATALOGUING.dir/test/box_detection_test.cpp.o
+.PHONY : test/box_detection_test.cpp.o
+
+test/box_detection_test.i: test/box_detection_test.cpp.i
+.PHONY : test/box_detection_test.i
+
+# target to preprocess a source file
+test/box_detection_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATALOGUING.dir/build.make CMakeFiles/CATALOGUING.dir/test/box_detection_test.cpp.i
+.PHONY : test/box_detection_test.cpp.i
+
+test/box_detection_test.s: test/box_detection_test.cpp.s
+.PHONY : test/box_detection_test.s
+
+# target to generate assembly for a file
+test/box_detection_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CATALOGUING.dir/build.make CMakeFiles/CATALOGUING.dir/test/box_detection_test.cpp.s
+.PHONY : test/box_detection_test.cpp.s
+
+test/localization_test.o: test/localization_test.cpp.o
+.PHONY : test/localization_test.o
+
+# target to build an object file
+test/localization_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LOCALIZATION.dir/build.make CMakeFiles/LOCALIZATION.dir/test/localization_test.cpp.o
+.PHONY : test/localization_test.cpp.o
+
+test/localization_test.i: test/localization_test.cpp.i
+.PHONY : test/localization_test.i
+
+# target to preprocess a source file
+test/localization_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LOCALIZATION.dir/build.make CMakeFiles/LOCALIZATION.dir/test/localization_test.cpp.i
+.PHONY : test/localization_test.cpp.i
+
+test/localization_test.s: test/localization_test.cpp.s
+.PHONY : test/localization_test.s
+
+# target to generate assembly for a file
+test/localization_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LOCALIZATION.dir/build.make CMakeFiles/LOCALIZATION.dir/test/localization_test.cpp.s
+.PHONY : test/localization_test.cpp.s
+
+test/navigation_test.o: test/navigation_test.cpp.o
+.PHONY : test/navigation_test.o
+
+# target to build an object file
+test/navigation_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NAVIGATION.dir/build.make CMakeFiles/NAVIGATION.dir/test/navigation_test.cpp.o
+.PHONY : test/navigation_test.cpp.o
+
+test/navigation_test.i: test/navigation_test.cpp.i
+.PHONY : test/navigation_test.i
+
+# target to preprocess a source file
+test/navigation_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NAVIGATION.dir/build.make CMakeFiles/NAVIGATION.dir/test/navigation_test.cpp.i
+.PHONY : test/navigation_test.cpp.i
+
+test/navigation_test.s: test/navigation_test.cpp.s
+.PHONY : test/navigation_test.s
+
+# target to generate assembly for a file
+test/navigation_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NAVIGATION.dir/build.make CMakeFiles/NAVIGATION.dir/test/navigation_test.cpp.s
+.PHONY : test/navigation_test.cpp.s
+
+test/tsp_test.o: test/tsp_test.cpp.o
+.PHONY : test/tsp_test.o
+
+# target to build an object file
+test/tsp_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TASKALLOCATION.dir/build.make CMakeFiles/TASKALLOCATION.dir/test/tsp_test.cpp.o
+.PHONY : test/tsp_test.cpp.o
+
+test/tsp_test.i: test/tsp_test.cpp.i
+.PHONY : test/tsp_test.i
+
+# target to preprocess a source file
+test/tsp_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TASKALLOCATION.dir/build.make CMakeFiles/TASKALLOCATION.dir/test/tsp_test.cpp.i
+.PHONY : test/tsp_test.cpp.i
+
+test/tsp_test.s: test/tsp_test.cpp.s
+.PHONY : test/tsp_test.s
+
+# target to generate assembly for a file
+test/tsp_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TASKALLOCATION.dir/build.make CMakeFiles/TASKALLOCATION.dir/test/tsp_test.cpp.s
+.PHONY : test/tsp_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -334,20 +598,47 @@ help:
 	@echo "... test"
 	@echo "... autonomous_robot_uninstall"
 	@echo "... uninstall"
+	@echo "... CATALOGUING"
+	@echo "... LOCALIZATION"
+	@echo "... NAVIGATION"
+	@echo "... TASKALLOCATION"
 	@echo "... autonomous_mapping"
+	@echo "... colour_detector"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... localizer_and_navigation"
+	@echo "... localizer_and_navigation_library"
+	@echo "... tsp"
 	@echo "... src/autonomous_mapping.o"
 	@echo "... src/autonomous_mapping.i"
 	@echo "... src/autonomous_mapping.s"
 	@echo "... src/autonomous_mapping_main.o"
 	@echo "... src/autonomous_mapping_main.i"
 	@echo "... src/autonomous_mapping_main.s"
+	@echo "... src/colour_detector.o"
+	@echo "... src/colour_detector.i"
+	@echo "... src/colour_detector.s"
 	@echo "... src/localizer_and_navigation.o"
 	@echo "... src/localizer_and_navigation.i"
 	@echo "... src/localizer_and_navigation.s"
 	@echo "... src/localizer_and_navigation_main.o"
 	@echo "... src/localizer_and_navigation_main.i"
 	@echo "... src/localizer_and_navigation_main.s"
+	@echo "... src/tsp.o"
+	@echo "... src/tsp.i"
+	@echo "... src/tsp.s"
+	@echo "... test/box_detection_test.o"
+	@echo "... test/box_detection_test.i"
+	@echo "... test/box_detection_test.s"
+	@echo "... test/localization_test.o"
+	@echo "... test/localization_test.i"
+	@echo "... test/localization_test.s"
+	@echo "... test/navigation_test.o"
+	@echo "... test/navigation_test.i"
+	@echo "... test/navigation_test.s"
+	@echo "... test/tsp_test.o"
+	@echo "... test/tsp_test.i"
+	@echo "... test/tsp_test.s"
 .PHONY : help
 
 

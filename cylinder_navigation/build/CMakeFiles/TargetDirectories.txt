@@ -1,0 +1,12 @@
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/cylinder_navigation_uninstall.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/cylinder_navigation_node.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/cylinder_detector.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/place_cylinder.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/test.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/install.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/cylinder_navigation/build/CMakeFiles/install/strip.dir

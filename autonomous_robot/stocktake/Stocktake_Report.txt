@@ -1,0 +1,7 @@
+Stocktake Report:
+
+Red Boxes = 0
+Yellow Boxes = 0
+Blue Boxes = 0
+Green Boxes = 1
+Purple Boxes = 0

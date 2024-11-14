@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-61405541b17f7d45c7e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cylinder_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cylinder_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cylinder_detector-Debug-29e1baef38bf73afc6a2.json",
+					"name" : "cylinder_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cylinder_navigation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cylinder_navigation_node-Debug-bc1e06313d4c6b51aeaa.json",
+					"name" : "cylinder_navigation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cylinder_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cylinder_navigation_uninstall-Debug-e5b05fafc56362a45f7f.json",
+					"name" : "cylinder_navigation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "place_cylinder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-place_cylinder-Debug-9198b71a105c38eaac01.json",
+					"name" : "place_cylinder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-5cc8b6b005f00fda7dff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/ros2_ws/src/cylinder_navigation/build",
+		"source" : "/home/student/ros2_ws/src/cylinder_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

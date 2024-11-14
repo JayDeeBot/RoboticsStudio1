@@ -27,6 +27,7 @@ private:
         cv::Mat current_map = convertOccupancyGridToMat(msg);
 
         cv::imshow("Current Map", current_map);
+        cv::waitKey(5); // Allow OpenCV window to refresh
         cv::imshow("Grount Truth Map", ground_truth_map_);
         cv::waitKey(1); // Allow OpenCV window to refresh
     }

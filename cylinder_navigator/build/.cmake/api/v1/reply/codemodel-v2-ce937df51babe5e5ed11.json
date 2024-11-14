@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f841fd898f82e060c62e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cylinder_navigator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "circum_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circum_navigation-Debug-20e7c5bd04e902caf5da.json",
+					"name" : "circum_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cylinder_navigator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cylinder_navigator_uninstall-Debug-ad05fd1bd485d737bd80.json",
+					"name" : "cylinder_navigator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "goal_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-goal_publisher-Debug-af4ea488c84ae960cd13.json",
+					"name" : "goal_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-7e82fbf545c5e4cbc0c8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/ros2_ws/src/cylinder_navigator/build",
+		"source" : "/home/student/ros2_ws/src/cylinder_navigator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

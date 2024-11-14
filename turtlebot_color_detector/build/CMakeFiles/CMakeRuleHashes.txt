@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+0070dd2c9502eb8d7901d1b6267fbed8 CMakeFiles/turtlebot_color_detector_uninstall

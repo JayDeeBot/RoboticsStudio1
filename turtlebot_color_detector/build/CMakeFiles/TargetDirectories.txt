@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/turtlebot_color_detector_uninstall.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/turtlebot_color_detector_node.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/test.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/install.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/turtlebot_color_detector/build/CMakeFiles/install/strip.dir

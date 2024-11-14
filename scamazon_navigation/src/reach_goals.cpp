@@ -165,7 +165,7 @@ void ReachGoalsNode::runTaskedState()
 
     // If there are no tasks for this goal, move to the next goal
     current_goal_index_++;
-    current_state_ = State::RUNNING;
     goals_.erase(goals_.begin());
     started_ = true;
+    current_state_ = State::RUNNING;
 }
